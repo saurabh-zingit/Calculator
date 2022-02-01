@@ -1,5 +1,5 @@
 {
-  "name": "mernapp",
+  "name": "calculator",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -16,10 +16,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.19.0",
-    "concurrently": "^5.0.0",
-    "express": "^4.17.1",
-    "mongoose": "^5.7.9",
-    "morgan": "^1.9.1"
+    "axios": "^0.25.0",
+    "concurrently": "^7.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.9",
+    "morgan": "^1.10.0"
   }
 }
