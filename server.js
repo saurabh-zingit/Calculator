@@ -5,7 +5,7 @@ const morgan = require('morgan');
 const path = require('path');
 
 const app = express();
-const PORT = process.env.PORT || 8080; // Step 1
+const PORT = process.env.PORT || 4000; // Step 1
 
 // HTTP request logger
 app.use(morgan('tiny'));
@@ -13,7 +13,7 @@ app.use(morgan('tiny'));
 // Routes
 app.get('/api',(req,res) => {
     const data = {
-        username: 'john',
+        username: 'sam',
         age: 21
     };
     res.json(data);
@@ -21,7 +21,7 @@ app.get('/api',(req,res) => {
 app.get('/api/name',(req,res) => {
     const data = {
         username: 'mark',
-        age: 41
+        age: 431
     };
     res.json(data);
 });
